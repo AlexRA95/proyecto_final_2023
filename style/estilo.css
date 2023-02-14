@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #276615;
+}
+
+.logo{
+    width: 35%;
+}
+
+
+.modal-background{
+    background-color: #9F9F9F;
+}
