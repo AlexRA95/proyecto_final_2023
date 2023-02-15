@@ -14,3 +14,7 @@ nav{
 .modal-background{
     background-color: #9F9F9F;
 }
+
+.bi-cart:hover, .bi-person-circle:hover{
+    color: #fff;
+}
