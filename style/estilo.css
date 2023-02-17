@@ -7,7 +7,7 @@ nav{
 }
 
 .logo{
-    width: 35%;
+    width: 15%;
 }
 
 
@@ -15,6 +15,37 @@ nav{
     background-color: #9F9F9F;
 }
 
-.bi-cart:hover, .bi-person-circle:hover{
-    color: #fff;
+
+.select-width{
+    width: 55%;
+}
+
+.cajas{
+    background-color: #276615;
+    border-left: 0.1rem solid #9F9F9F;
+    padding: 1rem;
+    font-size: large;
+    text-align: justify;
+}
+
+@media (max-width: 767.98px){
+
+    .select-width{
+        width: 100%;
+    }
+
+    .cajas{
+        border-left: 0;
+        border-bottom: 0.1rem solid #9F9F9F;
+        text-align: center;
+    }
+
+}
+
+
+
+@media (min-width: 767.99px){
+    .logo{
+        width: 8%;
+    }
 }

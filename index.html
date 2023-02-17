@@ -20,31 +20,16 @@
   <header>
     <nav class="navbar navbar-expand-sm navbar-light navbar-fondo bg-gradient">
         <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-fluid logo"></a>
+          <a href="index.html" class="navbar-brand logo">
+            <img src="img/logo.png" class="img-fluid ">
+          </a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#" aria-current="page">Principal</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Articulos</a>
-              <div class="dropdown-menu dropend" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Action 1</a>
-                <a class="dropdown-item" href="#">Action 2</a>
-                <a class="dropdown-item" href="#">Action 3</a>
-                <a class="dropdown-item" href="#">Action 4</a>
-                <a class="dropdown-item" href="#">Action 5</a>
-                <a class="dropdown-item" href="#">Action 6</a>
-                <a class="dropdown-item" href="#">Action 7</a>
-                <a class="dropdown-item" href="#">Action 8</a>
-                <a class="dropdown-item" href="#">Action 9</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown mb-1 mb-sm-0 ms-sm-3">
+        <div class="collapse navbar-collapse " id="collapsibleNavId">
+          <ul class="navbar-nav me-1 mt-2 mt-lg-0 w-75">
+            <li class="nav-item dropdown mb-1 mb-sm-0 ms-sm-3 select-width">
               <span class="d-none">Moneda</span>
               <select name="moneda" id="moneda" class="form-select w-75 border-0">
                 <option selected value="euro">Euros (€)</option>
@@ -58,8 +43,8 @@
                 <option value="Danish">Danish Krone (Kr.)</option>
               </select>
             </li>
-            <li>
-              <select name="pais" class="form-select w-100 border-0">
+            <li class="mt-2 mt-sm-0 select-width">
+              <select name="pais" class="form-select w-75 border-0">
                 <option value="chino mandarín">Chino mandarín</option>
                 <option selected value="español">Español</option>
                 <option value="inglés">Inglés</option>
@@ -74,11 +59,11 @@
                 
             </li>
           </ul>
-          <form class="d-flex my-2 my-lg-0">
-            <input class="form-control me-sm-2" type="text" placeholder="Buscar">
+          <form class="d-flex align-items-center my-2 my-lg-0 w-75">
+            <input class="form-control me-2 w-75" type="text" placeholder="Buscar">
             <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i class="bi bi-search"></i></button>
           </form>
-          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <ul class="navbar-nav d-flex flex-row justify-content-start mt-2 mt-lg-0 w-50">
             <li>
               <!-- Modal trigger button -->
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#inicio-sesion">
@@ -141,7 +126,7 @@
               </div>
             </li>
             <li>
-              <a href="#"><button class="btn"><i class="bi bi-cart fs-1 ms-md-5 link-dark"></i></button></a>
+              <a href="#"><button class="btn"><i class="bi bi-cart fs-1  link-dark"></i></button></a>
             </li>
           </ul>
         </div>
@@ -158,10 +143,10 @@
             <img src="img/vinocarrousel.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="img/vinocarrousel.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="img/vinocarrousel.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -174,6 +159,16 @@
         </button>
       </div>
     </div>
+
+    <div class="container-fluid mt-1">
+      <div class="row d-flex flex-column flex-md-row text-white">
+        <div class="col cajas">Entregas en 24/48H</div>
+        <div class="col cajas">Seguimiento de supedido desde que lo recibimos hasta que le llegue</div>
+        <div class="col cajas">Transporte gratuito si su pedido cuesta más de 50€</div>
+        <div class="col cajas">Atención al cliente 24/7 </div>
+      </div>
+    </div>
+
 
   </main>
   <footer>
