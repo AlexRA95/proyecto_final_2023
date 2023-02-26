@@ -25,8 +25,38 @@ nav{
     border-left: 0.1rem solid #9F9F9F;
     padding: 1rem;
     font-size: large;
-    text-align: justify;
+    text-align: center;
 }
+
+.bordes-lados{
+    border-right: 1px solid #9F9F9F;
+    border-left: 1px solid #9F9F9F;
+
+}
+
+.familia{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.newsletter-input{
+    width: 50%;
+}
+
+.footer{
+    background-color: #276615;
+}
+
+
+
 
 @media (max-width: 767.98px){
 
