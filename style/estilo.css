@@ -55,7 +55,20 @@ nav{
     background-color: #276615;
 }
 
+.copyright-top{
+    border-top: 0.1rem solid #9F9F9F;
+}
 
+.link-claro{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 0.5rem;
+}
+
+.footer-middle{
+    border-right: 1px solid #9F9F9F;
+    border-left: 1px solid #9F9F9F;
+}
 
 
 @media (max-width: 767.98px){
@@ -70,6 +83,14 @@ nav{
         text-align: center;
     }
 
+    .footer-middle, .footer-middle2{
+        border-top: 1px solid #9F9F9F;
+        border-bottom: 1px solid #9F9F9F;
+        border-left: none;
+        border-right: none;
+        padding: 1rem 0;
+    }
+
 }
 
 
@@ -78,4 +99,5 @@ nav{
     .logo{
         width: 8%;
     }
+    
 }
