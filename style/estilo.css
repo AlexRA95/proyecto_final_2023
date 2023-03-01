@@ -29,8 +29,8 @@ nav{
 }
 
 .bordes-lados{
-    border-right: 1px solid #9F9F9F;
-    border-left: 1px solid #9F9F9F;
+    border-right: 0.1rem solid #9F9F9F;
+    border-left: 0.1rem solid #9F9F9F;
 
 }
 
@@ -65,11 +65,38 @@ nav{
     margin-top: 0.5rem;
 }
 
-.footer-middle{
-    border-right: 1px solid #9F9F9F;
-    border-left: 1px solid #9F9F9F;
+.enlace-blanco{
+    text-decoration: none;
+    color: aliceblue;
+
 }
 
+.footer-middle{
+    border-right: 0.1rem solid #9F9F9F;
+    border-left: 0.1rem solid #9F9F9F;
+}
+
+.comentario-1{
+    border-bottom: 0.1rem solid #9F9F9F;
+    
+}
+
+.user-img{
+    width: 7%;
+}
+
+
+.fondo-caja{
+    background-image: url(../img/side-card-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @media (max-width: 767.98px){
 
@@ -83,6 +110,16 @@ nav{
         text-align: center;
     }
 
+    .user-img{
+        width: 12%;
+    }
+    
+    
+
+}
+
+@media (max-width: 992px ) {
+    
     .footer-middle, .footer-middle2{
         border-top: 1px solid #9F9F9F;
         border-bottom: 1px solid #9F9F9F;
@@ -90,6 +127,7 @@ nav{
         border-right: none;
         padding: 1rem 0;
     }
+
 
 }
 
@@ -100,4 +138,43 @@ nav{
         width: 8%;
     }
     
+
+    
 }
+
+
+#form {
+    width: 15.625rem;
+    margin: 0 auto;
+    height: 3.125rem;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 1.25rem;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
