@@ -3,9 +3,6 @@
 function newsletter(){
     
     Swal.fire({
-        customClass: {
-            confirmButton: 'btn btn-success',
-        },
         icon: 'success',
         
         title: '¡Gracias por suscribirse!',
@@ -19,9 +16,6 @@ function newsletter(){
 function comentario(){
 
     Swal.fire({
-        customClass: {
-            confirmButton: 'btn btn-success',
-        },
         icon: 'success',
         
         title: '¡Tu comentario se ha enviado correctamente!',
