@@ -86,17 +86,46 @@ nav{
 }
 
 
-.fondo-caja{
-    background-image: url(../img/side-card-1.jpg);
+
+.fondo-caja-1, .fondo-caja-2{
+    
     background-size: cover;
     background-position: center;
     padding: 1rem;
-    width: 100%;
+    width: 10rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.fondo-caja-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/side-card-1.jpg);
+}
+
+.fondo-caja-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/side-card-2.jpg);
+}
+
+
+.fondo-descrip{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/dehesa-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+    color: aliceblue;
+    font-size: 1.2rem;
+    
+}
+
+.fondo-oferta{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/aceite-oferta.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
 
 @media (max-width: 767.98px){
 
