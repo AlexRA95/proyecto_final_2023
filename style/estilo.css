@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+
 nav{
     background-color: #276615;
+}
+
+.navbar-bordertop{
+    border-top: 0.1rem solid #9F9F9F;
 }
 
 .logo{

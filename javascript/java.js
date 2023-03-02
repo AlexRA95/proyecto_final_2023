@@ -16,6 +16,24 @@ function newsletter(){
 
 }
 
+function comentario(){
+
+    Swal.fire({
+        customClass: {
+            confirmButton: 'btn btn-success',
+        },
+        icon: 'success',
+        
+        title: '¡Tu comentario se ha enviado correctamente!',
+
+        showConfirmButton: true,
+            
+      })
+
+}
+
+
+
 /*Contador*/
 document.addEventListener('DOMContentLoaded', () => { 
 
