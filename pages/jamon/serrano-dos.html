@@ -29,9 +29,10 @@
 
     <style>
 
-        .borde-titulo{
+        .bottom-border{
             border-bottom: 0.1rem solid #9F9F9F;
             margin: 1rem 0;
+            padding-bottom: 1rem;
         }
 
         .filtro{
@@ -303,7 +304,7 @@
                 </a>
                 <ul class="dropdown-menu ">
                   <li><a class="dropdown-item" href="../dulces/bombon.html">Bombón de higo</a></li>
-                  <li><a class="dropdown-item" href="../dulces/rosca-dos.html">Roscas</a></li>
+                  <li><a class="dropdown-item" href="../dulces/roscas.html">Roscas</a></li>
                   <li><a class="dropdown-item" href="#">Mantecados</a></li>
                   <li><a class="dropdown-item" href="#">Perrunillas</a></li>
                 </ul>
@@ -369,194 +370,87 @@
 
     <main>
 
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="borde-titulo">Queso mezcla</h2>
+        <div class="container-fluid mt-4 mb-4 ">
+
+            <div class="row d-flex flex-column flex-md-row align-content-center">
+
+                <div class="col-12 col-md-4">
+
+                    <img src="../../img/jamon-6.png" class="img-fluid">
+
                 </div>
-            </div>
 
-            <div class="row">
-
-              <div class="col-12">
-                <div class="mb-3">
-                  <label for="" class="form-label"></label>
-                  <select class="form-select form-select-lg  orden-filtro" name="" id="">
-                    <option selected>Ordenar:</option>
-                    <option value="">Precio: más bajo primero</option>
-                    <option value="">Precio: más alto primero</option>
-                    <option value="">Nombre: A hasta Z</option>
-                    <option value="">Nombre: Z hasta A</option>
-                    <option value="">En stock</option>
-                  </select>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="row d-flex flex-column-reverse flex-md-row align-items-center">
-                <!--Productos-->
-                <div class="col-12">
+                <div class="col-12 col-md-4">
 
                     <div class="container-fluid">
 
-                        <div class="row mt-3">
+                        <div class="row">
 
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso-5.png" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso curado mezcla  2,5KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>55,20€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="mezcla-uno.html" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
+                            <div class="col-12">
+
+                                <h2>Jamón serrano Gran Reserva Extremeña
+                                </h2>
+
                             </div>
 
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso-5.png" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso curado mezcla 1KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>32,80€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
+                            <div class="col-12">
+                                <p class="text-secondary bottom-border">El Jamón Serrano Gran Reserva Extremeña es un producto típico de la gastronomía española, elaborado a partir de cerdos blancos criados en granjas y alimentados con una dieta rica en cereales y otros recursos naturales. Este jamón se cura durante más de 18 meses en bodegas naturales para obtener un sabor y aroma característico.</p>
                             </div>
 
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso-5.png" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso curado mezcla 0,5KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>15,40€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
+                            <div class="col-12 mt-3">
+
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6 d-flex flex-row align-items-center justify-content-evenly">
+                                            <i class="bi bi-truck rounded-circle bg-warning p-4 fs-2"></i>
+                                            <h5>Entregas en 24/48H</h5>
+                                        </div>
+                                        <div class="col-6 d-flex flex-row align-items-center justify-content-evenly">
+                                            <i class="bi bi-cart rounded-circle bg-warning p-4 fs-2"></i>
+                                            <h5>Envio gratis si su pedido es superior a 50€</h5>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso-5.png" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso curado mezcla 0,25KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>5,00€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row mt-3">
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso1.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso viejo mezcla 2,5 KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>67,00€</p>
-                                    <p><span class="text-warning">★★★</span>★★</p>
-                                    <a href="mezcla-dos.html" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso1.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso viejo mezcla 1 KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>38,89€</p>
-                                    <p><span class="text-warning">★★★</span>★★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso1.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso viejo mezcla 0,5 KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-danger text-decoration-line-through">Sin stock</p>
-                                    <p>14,00€</p>
-                                    <p><span class="text-warning">★★★★★</span></p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso1.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso viejo mezcla 0,25 KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>7,45€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row mt-3">
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso-6.png" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso mezcla curado 1 KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>14,74€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/queso-6.png" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Queso mezcla curado 0,5 KG</h5>
-                                    <p class="card-text text-secondary">Queso mezcla</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>7,69€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
                             </div>
 
                         </div>
 
                     </div>
-                    
-                
+
                 </div>
 
+                <div class="col-12 col-md-1"></div>
+
+                <div class="col-md-3 mt-4 mt-md-0">
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="fs-1">197,00€</h3>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <label for="">Cantidad:</label>
+                                <input type="number" class="form-control w-25" placeholder="1">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 mt-4">
+                                <button class="btn btn-success"><i class="bi bi-bag text-white"></i> Comprar ahora</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+
+                    
+
+                </div>
 
             </div>
 

@@ -233,18 +233,72 @@
      
         <div class="container mt-3 mb-3">
 
-            <div class="row mb-3">
+          <div class="row">
+            <div class="container-fluid">
+
+              <div class="row">
+                <div class="col-12 col-lg-8">
+                                
+              <div class="row mb-3">
                 <div class="col-12 cart-bottom">
                     <h3>Carrito de la compra</h3>
                 </div>
-            </div>
+              </div>
 
             <div class="row">
                 <div class="col-12 bg-success p-4 text-white">
                     Tu carrito está vacio
                 </div>
             </div>
+                </div>
+
+                <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+
+
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <i class="bi bi-credit-card me-2"></i>Tarjeta de credito
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <label for="">Numero de tarjeta</label>
+                          <input type="text" class="form-control" pattern="[0-9]">
+                          <label for="">CVC</label>
+                          <input type="text" class="form-control w-50" pattern="[0-9]">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           <i class="bi bi-phone me-2"></i> Bizum
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <label for="">Numero de telefono</label>
+                          <input type="text" class="form-control" pattern="[0-9]">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </div>
+
+          </div>
+
+            
+
+            
         </div>
+
+        
 
     </main>
 
