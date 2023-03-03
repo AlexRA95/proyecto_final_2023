@@ -29,9 +29,10 @@
 
     <style>
 
-        .borde-titulo{
+        .bottom-border{
             border-bottom: 0.1rem solid #9F9F9F;
             margin: 1rem 0;
+            padding-bottom: 1rem;
         }
 
         .filtro{
@@ -302,8 +303,8 @@
                   Dulces
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="bombon.html">Bombón de higo</a></li>
-                  <li><a class="dropdown-item" href="roscas.html">Roscas</a></li>
+                  <li><a class="dropdown-item" href="../dulces/bombon.html">Bombón de higo</a></li>
+                  <li><a class="dropdown-item" href="../dulces/roscas.html">Roscas</a></li>
                   <li><a class="dropdown-item" href="#">Mantecados</a></li>
                   <li><a class="dropdown-item" href="#">Perrunillas</a></li>
                 </ul>
@@ -314,8 +315,8 @@
                   Aceite de oliva
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="../aceite/virgen.html">Aceite de oliva virgen</a></li>
-                  <li><a class="dropdown-item" href="../aceite/virgenextra.html">Aceite de oliva virgen extra</a></li>
+                  <li><a class="dropdown-item" href="virgen.html">Aceite de oliva virgen</a></li>
+                  <li><a class="dropdown-item" href="virgenextra.html">Aceite de oliva virgen extra</a></li>
                 </ul>
               </li>
 
@@ -369,194 +370,86 @@
 
     <main>
 
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="borde-titulo">Bombón de higo</h2>
+        <div class="container-fluid mt-4 mb-4 ">
+
+            <div class="row d-flex flex-column flex-md-row align-content-center">
+
+                <div class="col-12 col-md-4">
+
+                    <img src="../../img/aceite-1.jpg" class="img-fluid">
+
                 </div>
-            </div>
 
-            <div class="row">
-
-              <div class="col-12">
-                <div class="mb-3">
-                  <label for="" class="form-label"></label>
-                  <select class="form-select form-select-lg  orden-filtro" name="" id="">
-                    <option selected>Ordenar:</option>
-                    <option value="">Precio: más bajo primero</option>
-                    <option value="">Precio: más alto primero</option>
-                    <option value="">Nombre: A hasta Z</option>
-                    <option value="">Nombre: Z hasta A</option>
-                    <option value="">En stock</option>
-                  </select>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="row d-flex flex-column-reverse flex-md-row align-items-center">
-                <!--Productos-->
-                <div class="col-12">
+                <div class="col-12 col-md-4">
 
                     <div class="container-fluid">
 
-                        <div class="row mt-3">
+                        <div class="row">
 
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bombon-1.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombón de higo L. D. VERA 36 und</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>19,20€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="higo-uno.html" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
+                            <div class="col-12">
+
+                                <h2>Aceite de oliva juzgado 5L</h2>
+
                             </div>
 
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bombon-1.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombón de higo L. D. VERA 24 und</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>12,80€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
+                            <div class="col-12">
+                                <p class="text-secondary bottom-border">El aceite de oliva juzgado 5L es un tipo de aceite de oliva virgen de alta calidad que se produce a partir de aceitunas cuidadosamente seleccionadas y procesadas. Es un aceite de oliva de origen extremeño, conocido por su sabor suave y afrutado, con un ligero toque de amargor y picor que lo convierte en un aceite de oliva equilibrado y versátil en la cocina.</p>
                             </div>
 
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bombon-1.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombón de higo L. D. VERA 12 und</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>6,40€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
+                            <div class="col-12 mt-3">
+
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6 d-flex flex-row align-items-center justify-content-evenly">
+                                            <i class="bi bi-truck rounded-circle bg-warning p-4 fs-2"></i>
+                                            <h5>Entregas en 24/48H</h5>
+                                        </div>
+                                        <div class="col-6 d-flex flex-row align-items-center justify-content-evenly">
+                                            <i class="bi bi-cart rounded-circle bg-warning p-4 fs-2"></i>
+                                            <h5>Envio gratis si su pedido es superior a 50€</h5>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bomhigo-1.png" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombón de higo de Aljucen 36 und</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>25,00€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row mt-3">
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bomhigo-1.png" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombón de higo de Aljucen 24 und</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>17,00€</p>
-                                    <p><span class="text-warning">★★★</span>★★</p>
-                                    <a href="higo-dos.html" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bomhigo-1.png" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombón de higo de Aljucen 12 und</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>8,89€</p>
-                                    <p><span class="text-warning">★★★</span>★★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bombon-2.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombones de higo DAMA DE LA VERA 36 unidades</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-danger text-decoration-line-through">Sin stock</p>
-                                    <p>30,00€</p>
-                                    <p><span class="text-warning">★★★★★</span></p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bombon-2.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombones de higo DAMA DE LA VERA 24 unidades</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>23,45€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row mt-3">
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bombon-2.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombones de higo DAMA DE LA VERA 12 unidades</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>14,74€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                                <div class="card d-flex align-items-center text-center slider-cajas">
-                                  <img src="../../img/bombon-2.jpg" class="card-img-top img-fluid"/>
-                                  <div class="card-body">
-                                    <h5 class="card-title fs-4">Bombones de higo DAMA DE LA VERA 6 unidades</h5>
-                                    <p class="card-text text-secondary">Bombón de higo</p>
-                                    <p class="text-success">En stock</p>
-                                    <p>4,69€</p>
-                                    <p><span class="text-warning">★★★★</span>★</p>
-                                    <a href="#" class="btn btn-primary">Comprar</a>
-                                  </div>
-                                </div>
                             </div>
 
                         </div>
 
                     </div>
-                    
-                
+
                 </div>
 
+                <div class="col-12 col-md-1"></div>
+
+                <div class="col-md-3 mt-4 mt-md-0">
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="fs-1">32,00€</h3>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <label for="">Cantidad:</label>
+                                <input type="number" class="form-control w-25" placeholder="1">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 mt-4">
+                                <button class="btn btn-success"><i class="bi bi-bag text-white"></i> Comprar ahora</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+
+                    
+
+                </div>
 
             </div>
 

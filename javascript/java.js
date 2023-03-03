@@ -36,10 +36,10 @@ function admin(){
 
     if( user == "admin" && pass == "1234"){
         
-        window.location.href = "pages/register/register.html";
+        window.location.href = "pages/users/admin.html";
     }else{
-        if( user == "isidro" && pass == "1234"){
-            window.location.href = "pages/cart/cart.html";
+        if( user == "user" && pass == "1234"){
+            window.location.href = "pages/users/user.html";
         }
     }
 
