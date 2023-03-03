@@ -8,7 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="style/estilo.css" />
+    <link rel="stylesheet" href="../../style/estilo.css" />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -34,8 +34,8 @@
         class="navbar navbar-expand-sm navbar-light navbar-fondo bg-gradient"
       >
         <div class="container-fluid">
-          <a href="index.html" class="navbar-brand logo">
-            <img src="img/logo.png" class="img-fluid" />
+          <a href="../../index.html" class="navbar-brand logo">
+            <img src="../../img/logo.png" class="img-fluid" />
           </a>
           <button
             class="navbar-toggler d-lg-none"
@@ -49,7 +49,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <a href="index.html" class="text-decoration-none text-white">Inicio</a>
+            <a href="../../index.html" class="text-decoration-none text-white">Inicio</a>
             <ul class="navbar-nav me-1 mt-2 mt-lg-0 w-75">
               <li class="nav-item dropdown mb-1 mb-sm-0 ms-sm-3 select-width">
                 <span class="d-none">Moneda</span>
@@ -105,111 +105,16 @@
                   data-bs-toggle="modal"
                   data-bs-target="#inicio-sesion"
                 >
-                  <i class="bi bi-person-circle fs-1"></i>
+                  
+                <img src="../../img/user-4.png" class="img-fluid rounded-circle">
                 </button>
 
-                <!-- Modal Body -->
-                <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-                <div
-                  class="modal fade"
-                  id="inicio-sesion"
-                  tabindex="-1"
-                  role="dialog"
-                  aria-labelledby="modalTitleId"
-                  aria-hidden="true"
-                >
-                  <div
-                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md"
-                    role="document"
-                  >
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <div class="container w-75">
-                          <div class="row mb-3">
-                            <div class="col form-floating">
-                              <input
-                                type="text"
-                                name=""
-                                id="user"
-                                class="form-control"
-                                placeholder="a"
-                              />
-                              <label for="" class="floatingInput ms-3"
-                                >Nombre de Usuario</label
-                              >
-                            </div>
-                          </div>
-
-                          <div class="row mb-3">
-                            <div class="col form-floating">
-                              <input
-                                type="password"
-                                name=""
-                                id="pass"
-                                class="form-control"
-                                placeholder="a"
-                              />
-                              <label for="" class="floatingInput ms-3"
-                                >Contraseña</label
-                              >
-                            </div>
-                          </div>
-
-                          <div class="row mb-3">
-                            <div class="col d-flex justify-content-center">
-                              <input
-                                type="checkbox"
-                                name=""
-                                id=""
-                                class="form-check-input"
-                              />
-                              <label for="" class="form-check-label ms-2"
-                                >Recordar datos de sesión</label
-                              >
-                            </div>
-                          </div>
-
-                          <div class="row">
-                            <div
-                              class="col d-flex justify-content-center fw-bold"
-                            >
-                              <p>O si no tiene cuenta:</p>
-                            </div>
-                          </div>
-
-                          <div class="row">
-                            <div class="col">
-                              <a
-                                href="pages/register/register.html"
-                                target="_blank"
-                                ><button class="btn btn-success form-control">
-                                  Registrarse
-                                </button></a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer d-flex justify-content-evenly">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-bs-dismiss="modal"
-                        >
-                          Cancelar
-                        </button>
-                        <button type="button" class="btn btn-success" onclick="admin()">
-                          Iniciar Sesión
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+ 
               </li>
               <li>
-                <a href="pages/cart/cart.html"
+                <a href="../cart/cart.html"
                   ><button class="btn">
-                    <i class="bi bi-cart fs-1 link-dark"></i></button
+                    <im class="bi bi-cart fs-1 link-dark"></im></button
                 ></a>
               </li>
             </ul>
@@ -231,8 +136,8 @@
                   Vino
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="pages/vino/tinto.html">Vino tinto</a></li>
-                  <li><a class="dropdown-item" href="pages/vino/blanco.html">Vino blanco</a></li>
+                  <li><a class="dropdown-item" href="../vino/tinto.html">Vino tinto</a></li>
+                  <li><a class="dropdown-item" href="../vino/blanco.html">Vino blanco</a></li>
                   <li><a class="dropdown-item" href="#">Vino rosado</a></li>
                   <li><a class="dropdown-item" href="#">Vino achampañado</a></li>
                 </ul>
@@ -243,8 +148,8 @@
                   Jamón y embutidos
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="pages/jamon/iberico.html">Jamón ibérico</a></li>
-                  <li><a class="dropdown-item" href="pages/jamon/serrano.html">Jamón serrano</a></li>
+                  <li><a class="dropdown-item" href="../jamon/iberico.html">Jamón ibérico</a></li>
+                  <li><a class="dropdown-item" href="../jamon/serrano.html">Jamón serrano</a></li>
                   <li><a class="dropdown-item" href="#">Morcilla patatera</a></li>
                   <li><a class="dropdown-item" href="#">Salchichón ibérico de bellota</a></li>
                 </ul>
@@ -255,10 +160,10 @@
                   Queso
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="pages/queso/cabra.html">Queso de cabra</a></li>
+                  <li><a class="dropdown-item" href="../queso/cabra.html">Queso de cabra</a></li>
                   <li><a class="dropdown-item" href="#">Queso de cabra al pimentón</a></li>
                   <li><a class="dropdown-item" href="#">Queso de oveja</a></li>
-                  <li><a class="dropdown-item" href="pages/queso/mezcla.html">Queso mezcla</a></li>
+                  <li><a class="dropdown-item" href="../queso/mezcla.html">Queso mezcla</a></li>
                 </ul>
               </li>
 
@@ -267,8 +172,8 @@
                   Dulces
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="pages/dulces/bombon.html">Bombón de higo</a></li>
-                  <li><a class="dropdown-item" href="pages/dulces/roscas.html">Roscas</a></li>
+                  <li><a class="dropdown-item" href="../dulces/bombon.html">Bombón de higo</a></li>
+                  <li><a class="dropdown-item" href="../dulces/roscas.html">Roscas</a></li>
                   <li><a class="dropdown-item" href="#">Mantecados</a></li>
                   <li><a class="dropdown-item" href="#">Perrunillas</a></li>
                 </ul>
@@ -279,8 +184,8 @@
                   Aceite de oliva
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="pages/aceite/virgen.html">Aceite de oliva virgen</a></li>
-                  <li><a class="dropdown-item" href="pages/aceite/virgenextra.html">Aceite de oliva virgen extra</a></li>
+                  <li><a class="dropdown-item" href="../aceite/virgen.html">Aceite de oliva virgen</a></li>
+                  <li><a class="dropdown-item" href="../aceite/virgenextra.html">Aceite de oliva virgen extra</a></li>
                 </ul>
               </li>
 
@@ -359,21 +264,21 @@
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
               <img
-                src="img/vinocarrousel.jpg"
+                src="../../img/vinocarrousel.jpg"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
-                src="img/jamon_carrousel.jpg"
+                src="../../img/jamon_carrousel.jpg"
                 class="d-block w-100 img-fluid"
                 alt="..."
               />
             </div>
             <div class="carousel-item">
               <img
-                src="img/tortacarrousel.jpg"
+                src="../../img/tortacarrousel.jpg"
                 class="d-block w-100 img-fluid"
                 alt="..."
               />
@@ -497,7 +402,7 @@
                               class="card d-flex align-items-center text-center slider-cajas"
                             >
                               <img
-                                src="img/queso1.jpg"
+                                src="../../img/queso1.jpg"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -518,7 +423,7 @@
                               class="card d-flex align-items-center text-center slider-cajas"
                             >
                               <img
-                                src="img/chorizo-1.png"
+                                src="../../img/chorizo-1.png"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -539,7 +444,7 @@
                               class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
                             >
                               <img
-                                src="img/aceite-1.jpg"
+                                src="../../img/aceite-1.jpg"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -563,7 +468,7 @@
                               class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
                             >
                               <img
-                                src="img/vino-1.jpg"
+                                src="../../img/vino-1.jpg"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -589,7 +494,7 @@
                               class="card d-flex align-items-center text-center slider-cajas"
                             >
                               <img
-                                src="img/jamon-1.png"
+                                src="../../img/jamon-1.png"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -610,7 +515,7 @@
                               class="card d-flex align-items-center text-center slider-cajas"
                             >
                               <img
-                                src="img/vino-2.jpg"
+                                src="../../img/vino-2.jpg"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -631,7 +536,7 @@
                               class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
                             >
                               <img
-                                src="img/vino-3.jpg"
+                                src="../../img/vino-3.jpg"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -654,7 +559,7 @@
                               class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
                             >
                               <img
-                                src="img/jamon-2.jpg"
+                                src="../../img/jamon-2.jpg"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -680,7 +585,7 @@
                               class="card d-flex align-items-center text-center slider-cajas"
                             >
                               <img
-                                src="img/queso-2.jpg"
+                                src="../../img/queso-2.jpg"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -701,7 +606,7 @@
                               class="card d-flex align-items-center text-center slider-cajas"
                             >
                               <img
-                                src="img/bomhigo-1.png"
+                                src="../../img/bomhigo-1.png"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -722,7 +627,7 @@
                               class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
                             >
                               <img
-                                src="img/queso-3.png"
+                                src="../../img/queso-3.png"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -745,7 +650,7 @@
                               class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
                             >
                               <img
-                                src="img/roscas-1.jpg"
+                                src="../../img/roscas-1.jpg"
                                 class="card-img-top img-fluid"
                               />
                               <div class="card-body">
@@ -850,7 +755,7 @@
           <div class="col-12 comentario-1 mt-2">
             <h5>
               <img
-                src="img/user-1.jpg"
+                src="../../img/user-1.jpg"
                 class="img-fluid rounded-circle user-img"
               />
               Jorge Javier Vazquez
@@ -868,7 +773,7 @@
           <div class="col-12 comentario-1 mt-2">
             <h5>
               <img
-                src="img/user-2.jpg"
+                src="../../img/user-2.jpg"
                 class="img-fluid rounded-circle user-img"
               />
               Juan Carlos de Borbón
@@ -880,7 +785,7 @@
           <div class="col-12 comentario-1 mt-2">
             <h5>
               <img
-                src="img/user-3.jpg"
+                src="../../img/user-3.jpg"
                 class="img-fluid rounded-circle user-img"
               />
               El fary <span class="fst-italic">03:25:42 19/06/2007</span>
@@ -894,7 +799,7 @@
           <div class="col-12 comentario-1 mt-2">
             <h5>
               <img
-                src="img/user-4.png"
+                src="../../img/user-4.png"
                 class="img-fluid rounded-circle user-img"
               />
               Pepe Viyuela <span class="fst-italic">11:02:25 23/02/2012</span>
@@ -908,7 +813,7 @@
           <div class="col-12 comentario-1 mt-2">
             <h5>
               <img
-                src="img/user-5.jpg"
+                src="../../img/user-5.jpg"
                 class="img-fluid rounded-circle user-img"
               />
               Lolito Fernandez
@@ -1471,7 +1376,7 @@
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="javascript/java.js"></script>
+    <script src="../../javascript/java.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

@@ -16,6 +16,9 @@ function newsletter(){
 function comentario(){
 
     Swal.fire({
+
+        confirmButtonColor: green,
+        
         icon: 'success',
         
         title: '¡Tu comentario se ha enviado correctamente!',
@@ -26,6 +29,21 @@ function comentario(){
 
 }
 
+
+function admin(){
+    var user = document.getElementById("user").value;
+    var pass = document.getElementById("pass").value;
+
+    if( user == "admin" && pass == "1234"){
+        
+        window.location.href = "pages/register/register.html";
+    }else{
+        if( user == "isidro" && pass == "1234"){
+            window.location.href = "pages/cart/cart.html";
+        }
+    }
+
+}
 
 
 /*Contador*/

@@ -8,7 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="style/estilo.css" />
+    <link rel="stylesheet" href="../../style/estilo.css" />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -26,16 +26,40 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
+
+    <style>
+
+        .borde-titulo{
+            border-bottom: 0.1rem solid #9F9F9F;
+            margin: 1rem 0;
+        }
+
+        .filtro{
+            border: 0.1rem solid #9F9F9F;
+            
+        }
+
+        
+@media (max-width: 767.98px){
+
+.filtro{
+    border: none;
+}
+
+}
+    </style>
+
   </head>
 
   <body>
+
     <header>
       <nav
         class="navbar navbar-expand-sm navbar-light navbar-fondo bg-gradient"
       >
         <div class="container-fluid">
-          <a href="index.html" class="navbar-brand logo">
-            <img src="img/logo.png" class="img-fluid" />
+          <a href="../../index.html" class="navbar-brand logo">
+            <img src="../../img/logo.png" class="img-fluid" />
           </a>
           <button
             class="navbar-toggler d-lg-none"
@@ -49,7 +73,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <a href="index.html" class="text-decoration-none text-white">Inicio</a>
+            <a href="../../index.html" class="text-decoration-none text-white">Inicio</a>
             <ul class="navbar-nav me-1 mt-2 mt-lg-0 w-75">
               <li class="nav-item dropdown mb-1 mb-sm-0 ms-sm-3 select-width">
                 <span class="d-none">Moneda</span>
@@ -180,7 +204,7 @@
                           <div class="row">
                             <div class="col">
                               <a
-                                href="pages/register/register.html"
+                                href="../register/register.html"
                                 target="_blank"
                                 ><button class="btn btn-success form-control">
                                   Registrarse
@@ -207,7 +231,7 @@
                 </div>
               </li>
               <li>
-                <a href="pages/cart/cart.html"
+                <a href="../cart/cart.html"
                   ><button class="btn">
                     <i class="bi bi-cart fs-1 link-dark"></i></button
                 ></a>
@@ -231,8 +255,8 @@
                   Vino
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="pages/vino/tinto.html">Vino tinto</a></li>
-                  <li><a class="dropdown-item" href="pages/vino/blanco.html">Vino blanco</a></li>
+                  <li><a class="dropdown-item" href="../vino/tinto.html">Vino tinto</a></li>
+                  <li><a class="dropdown-item" href="../vino/blanco.html">Vino blanco</a></li>
                   <li><a class="dropdown-item" href="#">Vino rosado</a></li>
                   <li><a class="dropdown-item" href="#">Vino achampañado</a></li>
                 </ul>
@@ -243,8 +267,8 @@
                   Jamón y embutidos
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="pages/jamon/iberico.html">Jamón ibérico</a></li>
-                  <li><a class="dropdown-item" href="pages/jamon/serrano.html">Jamón serrano</a></li>
+                  <li><a class="dropdown-item" href="../jamon/iberico.html">Jamón ibérico</a></li>
+                  <li><a class="dropdown-item" href="../jamon/serrano.html">Jamón serrano</a></li>
                   <li><a class="dropdown-item" href="#">Morcilla patatera</a></li>
                   <li><a class="dropdown-item" href="#">Salchichón ibérico de bellota</a></li>
                 </ul>
@@ -255,10 +279,10 @@
                   Queso
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="pages/queso/cabra.html">Queso de cabra</a></li>
+                  <li><a class="dropdown-item" href="../queso/cabra.html">Queso de cabra</a></li>
                   <li><a class="dropdown-item" href="#">Queso de cabra al pimentón</a></li>
                   <li><a class="dropdown-item" href="#">Queso de oveja</a></li>
-                  <li><a class="dropdown-item" href="pages/queso/mezcla.html">Queso mezcla</a></li>
+                  <li><a class="dropdown-item" href="../queso/mezcla.html">Queso mezcla</a></li>
                 </ul>
               </li>
 
@@ -267,8 +291,8 @@
                   Dulces
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="pages/dulces/bombon.html">Bombón de higo</a></li>
-                  <li><a class="dropdown-item" href="pages/dulces/roscas.html">Roscas</a></li>
+                  <li><a class="dropdown-item" href="../dulces/bombon.html">Bombón de higo</a></li>
+                  <li><a class="dropdown-item" href="../dulces/roscas.html">Roscas</a></li>
                   <li><a class="dropdown-item" href="#">Mantecados</a></li>
                   <li><a class="dropdown-item" href="#">Perrunillas</a></li>
                 </ul>
@@ -279,8 +303,8 @@
                   Aceite de oliva
                 </a>
                 <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="pages/aceite/virgen.html">Aceite de oliva virgen</a></li>
-                  <li><a class="dropdown-item" href="pages/aceite/virgenextra.html">Aceite de oliva virgen extra</a></li>
+                  <li><a class="dropdown-item" href="virgen.html">Aceite de oliva virgen</a></li>
+                  <li><a class="dropdown-item" href="virgenextra.html">Aceite de oliva virgen extra</a></li>
                 </ul>
               </li>
 
@@ -331,671 +355,246 @@
 
 
     </header>
+
     <main>
-      <div class="container-fluid mt-3 mb-3">
-        <div class="row">
-          <div class="col-12">
-            <div class="card fondo-descrip">
-              <div class="card-body">
-                <p>
-                  Un lugar dónde el sabor de Extremadura está presente en todas
-                  sus variedades. Los mejores y más representativos sabores de
-                  Extremadura hacia tu paladar, en donde se elaboran mucho de
-                  los mejores manjares de nuestro país. Un sabor único, un sabor
-                  a Extremadura
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="container d-none d-md-block">
-        <div
-          id="carouselExampleInterval"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img
-                src="img/vinocarrousel.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img
-                src="img/jamon_carrousel.jpg"
-                class="d-block w-100 img-fluid"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="img/tortacarrousel.jpg"
-                class="d-block w-100 img-fluid"
-                alt="..."
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-
-      <div class="container-fluid mt-1">
-        <div class="row d-flex flex-column flex-md-row text-white">
-          <div class="col cajas fs-3">Entregas en 24/48H</div>
-          <div class="col cajas fs-3">
-            Seguimiento de supedido desde que lo recibimos hasta que le llegue
-          </div>
-          <div class="col cajas fs-3">
-            Transporte gratuito si su pedido cuesta más de 50€
-          </div>
-          <div class="col cajas fs-3">Atención al cliente 24/7</div>
-        </div>
-      </div>
-
-      <!--Oferta-->
-      <div class="container mt-2 mb-2">
-        <div class="row">
-          <div class="col-12">
-            <a href="#" class="text-decoration-none">
-              <div class="card fondo-oferta text-white text-center">
-                <div class="card-body">
-                  <h2>¡Oferta por tiempo limitado!</h2>
-                  <h3>¡Botella de 5L de aceite de oliva de Montanchez!</h3>
-                  <h5 class="text-decoration-line-through">30,00€/ Unidad</h5>
-                  <h4>50% <span class="fs-2">15,00€/ Unidad</span></h4>
-                  <section>
-                    <p class="fs-3">
-                      <span id="days"></span> : <span id="hours"></span> :
-                      <span id="minutes"></span> : <span id="seconds"></span>
-                    </p>
-                  </section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="borde-titulo">Aceite virgen</h2>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!--Side banner izq-->
-      <div class="container-fluid mt-3">
-        <div class="row d-flex justify-content-center">
-          <div class="col-2 d-none d-lg-block">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-12 d-flex justify-content-start">
-                  <div class="card fondo-caja-1 text-white text-center">
-                    <h4 class="card-title">El jamón de más alta calidad</h4>
-                    <h5 class="card-text">Criado en extremadura</h5>
-                    <h3 class="card-text">20,00€</h3>
-                    <button class="btn btn-success">Comprar ahora</button>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        
-          <!--Contenido-->
-          <div class="col-10 col-lg-8">
-            <div class="container-fluid">
-              <div class="row">
-                <div
-                  id="carouselExampleIndicators"
-                  class="carousel slide"
-                  data-bs-ride="true"
-                >
-                  <div class="carousel-indicators">
-                    <button
-                      type="button"
-                      
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="0"
-                      class="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
-                    <button
-                      type="button"
-                      
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="1"
-                      aria-label="Slide 2"
-                    ></button>
-                    <button
-                      type="button" 
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="2"
-                      aria-label="Slide 3"
-                    ></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="container w-75 p-3"> <!--Primero-->
-                        <div class="row">
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas"
-                            >
-                              <img
-                                src="img/queso1.jpg"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title fs-4">Queso viejo mezcla</h5>
-                                <p class="card-text text-secondary">Queso mezcla</p>
-                                <p class="text-success">En stock</p>
-                                <p>21,00€</p>
-                                <p><span class="text-warning">★★★★</span>★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
-                            </div>
-                          </div>
 
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas"
-                            >
-                              <img
-                                src="img/chorizo-1.png"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">Chorizo patatero 1KG</h5>
-                                <p class="card-text  text-secondary">Chorizo patatero</p>
-                                <p class="text-success">En stock</p>
-                                <p>15,00€</p>
-                                <p class="text-warning">★★★★★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
-                            </div>
-                          </div>
+            <div class="row d-flex flex-column-reverse flex-md-row align-items-center">
+                <!--Productos-->
+                <div class="col-10">
 
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
-                            >
-                              <img
-                                src="img/aceite-1.jpg"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">
-                                  Aceite de oliva
-                                </h5>
-                                <p class="card-text text-secondary d-block d-lg-none">Aceite de oliva Virgen extra</p>
-                                <p class="card-text text-secondary d-none d-lg-block">Virgen extra</p>
-                                <p class="text-success">En stock</p>
-                                <p>21,09€</p>
-                                <p><span class="text-warning">★★★★</span>★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
-                            </div>
-                          </div>
+                    <div class="container-fluid">
 
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
-                            >
-                              <img
-                                src="img/vino-1.jpg"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">Vino orgullo de Barros</h5>
-                                <p class="card-text text-secondary">Vino blanco</p>
-                                <p class="text-success">En stock</p>
-                                <p>8,95€</p>
-                                <p><span class="text-warning">★★★</span>★★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
+                        <div class="row mt-3">
+
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="../../img/aceite-1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Aceite de oliva 5L</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>32,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
                             </div>
-                          </div>
+
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="../../img/aceite-1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Aceite de oliva 2,5L</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>21,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="../../img/aceite-1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Aceite de oliva 1L</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>11,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="../../img/aceite-1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Aceite de oliva 0.5L</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>5,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
+                            </div>
+
                         </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="container w-75 p-3"> <!--Segundo-->
-                        <div class="row">
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas"
-                            >
-                              <img
-                                src="img/jamon-1.png"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">Jamón ibérico de bellota</h5>
-                                <p class="card-text text-secondary">Jamón ibérico</p>
-                                <p class="text-danger text-decoration-line-through">Sin stock</p>
-                                <p>594,95€</p>
-                                <p><span class="text-warning">★★★★★</span></p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
-                            </div>
-                          </div>
 
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas"
-                            >
-                              <img
-                                src="img/vino-2.jpg"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title"> Vino tinto Octubre 2020</h5>
-                                <p class="card-text  text-secondary">Vino tinto</p>
-                                <p class="text-success">En stock</p>
-                                <p>8,75€</p>
-                                <p><span class="text-warning">★★★</span>★★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
-                            </div>
-                          </div>
+                        <div class="row mt-3">
 
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
-                            >
-                              <img
-                                src="img/vino-3.jpg"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">
-                                  Vino rosado Puerta Palma
-                                </h5>
-                                <p class="card-text text-secondary">Vino rosado</p>
-                                <p class="text-danger text-decoration-line-through">Sin stock</p>
-                                <p>32,00€</p>
-                                <p><span class="text-warning">★★★★</span>★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="img/queso1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Queso viejo mezcla</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>21,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
                             </div>
-                          </div>
 
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
-                            >
-                              <img
-                                src="img/jamon-2.jpg"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">Jamón La Joya</h5>
-                                <p class="card-text text-secondary">Jamón serrano</p>
-                                <p class="text-success">En stock</p>
-                                <p>128,00€</p>
-                                <p><span class="text-warning">★★★</span>★★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="img/queso1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Queso viejo mezcla</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>21,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
                             </div>
-                          </div>
+
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="img/queso1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Queso viejo mezcla</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>21,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch mt-2">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="img/queso1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Queso viejo mezcla</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>21,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
+                            </div>
+
                         </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="container w-75 p-3"> <!--Tercero-->
-                        <div class="row">
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas"
-                            >
-                              <img
-                                src="img/queso-2.jpg"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">Queso de cabra Sudao</h5>
-                                <p class="card-text text-secondary">Queso de cabra</p>
-                                <p class="text-success">En stock</p>
-                                <p>11,00€</p>
-                                <p><span class="text-warning">★★★★</span>★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
-                            </div>
-                          </div>
 
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas"
-                            >
-                              <img
-                                src="img/bomhigo-1.png"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">Bombón de Higo</h5>
-                                <p class="card-text  text-secondary">Bombón de higo</p>
-                                <p class="text-danger text-decoration-line-through">Sin stock</p>
-                                <p>15,00€</p>
-                                <p class="text-warning">★★★★★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
-                            </div>
-                          </div>
+                        <div class="row mt-3">
 
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
-                            >
-                              <img
-                                src="img/queso-3.png"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">
-                                  Queso curado de oveja
-                                </h5>
-                                <p class="card-text text-secondary">Queso de oveja</p>
-                                <p class="text-success">En stock</p>
-                                <p>25,99€</p>
-                                <p><span class="text-warning">★★★★</span>★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="img/queso1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Queso viejo mezcla</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>21,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
                             </div>
-                          </div>
 
-                          <div class="col-6 col-lg-3 d-flex align-items-stretch">
-                            <div
-                              class="card d-flex align-items-center text-center slider-cajas mt-4 mt-lg-0"
-                            >
-                              <img
-                                src="img/roscas-1.jpg"
-                                class="card-img-top img-fluid"
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">
-                                  Roscas de vino de casar </h5>
-                                <p class="card-text text-secondary">Roscas</p>
-                                <p class="text-danger text-decoration-line-through">Sin stock</p>
-                                <p>3,77€</p>
-                                <p><span class="text-warning">★★★</span>★★</p>
-                                <a href="#" class="btn btn-primary"
-                                  ><i class="bi bi-cart"></i>Carrito</a
-                                >
-                              </div>
+                            <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                                <div class="card d-flex align-items-center text-center slider-cajas">
+                                  <img src="img/queso1.jpg" class="card-img-top img-fluid"/>
+                                  <div class="card-body">
+                                    <h5 class="card-title fs-4">Queso viejo mezcla</h5>
+                                    <p class="card-text text-secondary">Aceite de oliva virgen</p>
+                                    <p class="text-success">En stock</p>
+                                    <p>21,00€</p>
+                                    <p><span class="text-warning">★★★★</span>★</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
                             </div>
-                          </div>
+
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon text-bg-dark"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon text-bg-dark"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <!--Side banner dere-->
-          <div class="col-2 d-none d-lg-block">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-12 d-flex justify-content-end">
-                  <div class="card fondo-caja-2 text-white text-center">
-                    <h4 class="card-title">El mejor chorizo al mejor precio</h4>
-                    <h5 class="card-text">Hecho en Extremadura</h5>
-                    <h3 class="card-text">11,95€</h3>
-                    <button class="btn btn-success">Comprar ahora</button>
-                  </div>
+                    </div>
+                    
+                
                 </div>
-              </div>
+
+                <!--Filtro-->
+                <div class="col-2">
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 filtro">
+                                
+                                <fieldset class="d-flex flex-row justify-content-center flex-md-column" >
+
+
+                                    <p>Stock:</p>
+                                   <div class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="" id="" checked>
+                                     <label class="form-check-label" for="">
+                                       Stock
+                                     </label>
+                                   </div>
+                                   <div class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="" id="" >
+                                     <label class="form-check-label" for="">
+                                       No stock
+                                     </label>
+                                   </div>
+
+                                   
+                                   <p>Precio:</p>
+                                   <div class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="" id="">
+                                     <label class="form-check-label" for="">
+                                       -10€
+                                     </label>
+                                   </div>
+                                   <div class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="" id="">
+                                     <label class="form-check-label" for="">
+                                       +10€
+                                     </label>
+                                   </div>
+                                   <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="" >
+                                    <label class="form-check-label" for="">
+                                      +50€
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="" >
+                                    <label class="form-check-label" for="">
+                                      +100€
+                                    </label>
+                                  </div>
+
+                                </fieldset>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-          </div>
+
         </div>
-      </div>
+
     </main>
 
     <footer>
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col newsletter">
-            <h3 class="mt-1">¡Recibe noticias nuestras!</h3>
-            <div class="form-floating newsletter-input mt-1">
-              <input
-                type="text"
-                name=""
-                id=""
-                class="form-control"
-                placeholder="a"
-              />
-              <label for="" class="floatingInput ms-3"
-                >Correo electrónico...</label
-              >
-            </div>
-            <p class="mt-1">
-              ¡Introduce tu correo y ten enviaremos las utlimas noticias de
-              nuestra empresa!
-            </p>
-            <button class="btn btn-success w-50 mt-1" onclick="newsletter()">
-              SUSCRIBIRSE
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!--Comentarios-->
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-12 comentario-1">
-            <h2>Comentarios de nuestros usuarios:</h2>
-          </div>
-          <div class="col-12 comentario-1 mt-2">
-            <h5>
-              <img
-                src="img/user-1.jpg"
-                class="img-fluid rounded-circle user-img"
-              />
-              Jorge Javier Vazquez
-              <span class="fst-italic">11:02:25 23/02/2012</span>
-            </h5>
-            <p>
-              Me encantan los productos de mi tierra extremadura, pero llevo
-              años fuera y AtopeExtremadura ha sido la que me ha mantenido
-              conectado con los productos de mi tierra. Los productos que tienen
-              a la venta son de altisima calidad y es tan sencilla de usar que
-              mi padre que tiene 85 años es capaz de usarla sin problemas.
-            </p>
-            <p><span class="text-warning">★★★</span>★★</p>
-          </div>
-          <div class="col-12 comentario-1 mt-2">
-            <h5>
-              <img
-                src="img/user-2.jpg"
-                class="img-fluid rounded-circle user-img"
-              />
-              Juan Carlos de Borbón
-              <span class="fst-italic">04:20:52 02/09/2003</span>
-            </h5>
-            <p>Muy fácil de usar y los productos son de calidad</p>
-            <p><span class="text-warning">★</span>★★★★</p>
-          </div>
-          <div class="col-12 comentario-1 mt-2">
-            <h5>
-              <img
-                src="img/user-3.jpg"
-                class="img-fluid rounded-circle user-img"
-              />
-              El fary <span class="fst-italic">03:25:42 19/06/2007</span>
-            </h5>
-            <p>
-              Ole ole, como me gusta extremadura, los productos de esta página y
-              la facilidad de uso que tiene.
-            </p>
-            <p class="text-warning">★★★★★</p>
-          </div>
-          <div class="col-12 comentario-1 mt-2">
-            <h5>
-              <img
-                src="img/user-4.png"
-                class="img-fluid rounded-circle user-img"
-              />
-              Pepe Viyuela <span class="fst-italic">11:02:25 23/02/2012</span>
-            </h5>
-            <p>
-              Hola, soy Pepe Viyuela y me encantan los productos extremeños de
-              esta página y la facilidad de uso de esta página.
-            </p>
-            <p><span class="text-warning">★★★★</span>★</p>
-          </div>
-          <div class="col-12 comentario-1 mt-2">
-            <h5>
-              <img
-                src="img/user-5.jpg"
-                class="img-fluid rounded-circle user-img"
-              />
-              Lolito Fernandez
-              <span class="fst-italic">11:02:25 23/02/2012</span>
-            </h5>
-            <p>
-              Soy Lolito Fernandez y me encanta extremadura, los productos
-              extremeños de esta página y la facilidad de uso que tiene, ahora
-              te voy a rapear una cosa: Yepa ya estoy por aqui, no podia dejar
-              mi stream Ahora que por fin ya he vuelto a twitch Demostraré que
-              para esto nací Ya estoy por casa, ya ha llegado el papa Nunca di
-              la chapa, pero Twitch lo puse en el mapa El mas cabron el más
-              real, el menos copión, siempre lo hice de corazón El primer
-              hispano en llegar al millón Ese soy yo por si no te acordabas Que
-              fui yo quien remaba, cuando aquí no había nada Solo youtubers que
-              no stremeaban Alli estaba yo, dandolo to&#x27; Vine de abajo y me
-              puse en el top Dedicación y mucha pasión Hizo que en esto yo fuera
-              el mejor Fueron pocos los que me apoyaron Y ahora mira monstro
-              donde hemos llegado A mi muchos tontos me subestimaron Pero con su
-              odio se atragantaron
-            </p>
-            <p class="text-warning">★★★★★</p>
-          </div>
-
-          <div class="col-12 mt-2 form-floating">
-            
-            <textarea
-              class="form-control mt-2"
-              rows="2"
-              placeholder="a"
-            ></textarea>
-            <label for="floatingInput" class="ms-3"
-              >Escribe tu opinión de nuestra empresa...</label
-            >
-
-            <form>
-              <p class="clasificacion">
-                <input
-                  id="radio1"
-                  type="radio"
-                  name="estrellas"
-                  value="5"
-                /><!--
-              --><label for="radio1">★</label
-                ><!--
-              --><input
-                  id="radio2"
-                  type="radio"
-                  name="estrellas"
-                  value="4"
-                /><!--
-              --><label for="radio2">★</label
-                ><!--
-              --><input
-                  id="radio3"
-                  type="radio"
-                  name="estrellas"
-                  value="3"
-                /><!--
-              --><label for="radio3">★</label
-                ><!--
-              --><input
-                  id="radio4"
-                  type="radio"
-                  name="estrellas"
-                  value="2"
-                /><!--
-              --><label for="radio4">★</label
-                ><!--
-              --><input
-                  id="radio5"
-                  type="radio"
-                  name="estrellas"
-                  value="1"
-                /><!--
-              --><label for="radio5">★</label>
-              </p>
-            </form>
-
-            <button class="btn btn-success" onclick="comentario()">Enviar</button>
-
-            
-
-          </div>
-        </div>
-      </div>
-
+      
       <div class="container-fluid footer mt-4 text-white">
         <div class="container p-2">
           <div class="row d-flex flex-column flex-md-row text-center">
@@ -1004,11 +603,11 @@
                 <li>
                   <h3>Vinos</h3>
                   <ul class="list-unstyled">
-                    <li><a href="" class="enlace-blanco">Vino tinto</a></li>
-                    <li><a href="" class="enlace-blanco">Vino blanco</a></li>
-                    <li><a href="" class="enlace-blanco">Vino rosado</a></li>
+                    <li><a href="../vino/tinto.html" class="enlace-blanco">Vino tinto</a></li>
+                    <li><a href="../vino/blanco.html" class="enlace-blanco">Vino blanco</a></li>
+                    <li><a href="#" class="enlace-blanco">Vino rosado</a></li>
                     <li>
-                      <a href="" class="enlace-blanco">Vino achampañado</a>
+                      <a href="#" class="enlace-blanco">Vino achampañado</a>
                     </li>
                   </ul>
                 </li>
@@ -1019,13 +618,13 @@
                 <li>
                   <h3>Jamón y embutidos</h3>
                   <ul class="list-unstyled">
-                    <li><a href="" class="enlace-blanco">Jamón ibérico</a></li>
-                    <li><a href="" class="enlace-blanco">Jamón serrano</a></li>
+                    <li><a href="../jamon/iberico.html" class="enlace-blanco">Jamón ibérico</a></li>
+                    <li><a href="../jamon/serrano.html" class="enlace-blanco">Jamón serrano</a></li>
                     <li>
-                      <a href="" class="enlace-blanco">Morcilla patatera</a>
+                      <a href="#" class="enlace-blanco">Morcilla patatera</a>
                     </li>
                     <li>
-                      <a href="" class="enlace-blanco"
+                      <a href="#" class="enlace-blanco"
                         >Salchichón ibérico de bellota</a
                       >
                     </li>
@@ -1038,14 +637,14 @@
                 <li>
                   <h3>Queso</h3>
                   <ul class="list-unstyled">
-                    <li><a href="" class="enlace-blanco">Queso de cabra</a></li>
+                    <li><a href="../queso/cabra.html" class="enlace-blanco">Queso de cabra</a></li>
                     <li>
-                      <a href="" class="enlace-blanco"
+                      <a href="#" class="enlace-blanco"
                         >Queso de cabra al pimentón</a
                       >
                     </li>
-                    <li><a href="" class="enlace-blanco">Queso de oveja</a></li>
-                    <li><a href="" class="enlace-blanco">Queso mezcla</a></li>
+                    <li><a href="#" class="enlace-blanco">Queso de oveja</a></li>
+                    <li><a href="../queso/mezcla.html" class="enlace-blanco">Queso mezcla</a></li>
                   </ul>
                 </li>
               </ul>
@@ -1055,10 +654,10 @@
                 <li>
                   <h3>Dulces</h3>
                   <ul class="list-unstyled">
-                    <li><a href="" class="enlace-blanco">Bombón de higo</a></li>
-                    <li><a href="" class="enlace-blanco">Roscas</a></li>
-                    <li><a href="" class="enlace-blanco">Mantecados</a></li>
-                    <li><a href="" class="enlace-blanco">Perrunillas</a></li>
+                    <li><a href="../dulces/bombon.html" class="enlace-blanco">Bombón de higo</a></li>
+                    <li><a href="../dulces/roscas.html" class="enlace-blanco">Roscas</a></li>
+                    <li><a href="#" class="enlace-blanco">Mantecados</a></li>
+                    <li><a href="#" class="enlace-blanco">Perrunillas</a></li>
                   </ul>
                 </li>
               </ul>
@@ -1067,25 +666,25 @@
           <div class="row mb-4 mt-4 d-flex flex-column flex-lg-row">
             <div class="col d-flex flex-column fs-4 text-center footer-middle2">
               <h3>Comunidad</h3>
-              <a href="" class="link-claro"
+              <a href="https://www.instagram.com/" class="link-claro"
                 ><i class="bi bi-instagram"></i> Instagram</a
               >
-              <a href="" class="link-claro"
+              <a href="https://twitter.com/" class="link-claro"
                 ><i class="bi bi-twitter"></i> Twitter</a
               >
-              <a href="" class="link-claro"
+              <a href="https://es-es.facebook.com/" class="link-claro"
                 ><i class="bi bi-facebook"></i> Facebook</a
               >
-              <a href="" class="link-claro"
+              <a href="https://web.telegram.org/k/" class="link-claro"
                 ><i class="bi bi-telegram"></i> Telegram</a
               >
-              <a href="" class="link-claro"
+              <a href="https://www.youtube.com/" class="link-claro"
                 ><i class="bi bi-youtube"></i> Youtube</a
               >
-              <a href="" class="link-claro"
+              <a href="https://www.tiktok.com/es/" class="link-claro"
                 ><i class="bi bi-tiktok"></i> TikTok</a
               >
-              <a href="" class="link-claro"
+              <a href="https://www.twitch.tv/" class="link-claro"
                 ><i class="bi bi-twitch"></i> Twitch</a
               >
             </div>
@@ -1471,7 +1070,7 @@
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="javascript/java.js"></script>
+    <script src="../../javascript/java.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
