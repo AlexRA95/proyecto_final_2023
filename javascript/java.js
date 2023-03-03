@@ -45,6 +45,12 @@ function admin(){
 
 }
 
+function index(){
+
+    window.location.href = "../../index.html";
+
+}
+
 
 /*Contador*/
 document.addEventListener('DOMContentLoaded', () => { 
